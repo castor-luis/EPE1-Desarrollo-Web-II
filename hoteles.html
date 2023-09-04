@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aereolinea Vuela Lejos</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color:#ffffff;/* color  de fondo Secundario*/
+        }
+        .navbar {
+            background-color:#1b0088;/* color  de fondo Primario*/
+            color:#ffffff; /color de texto/
+        }
+        .navbar-nav .nav-link {
+            color: #ffffff;/* color que señala los enlaces de navegación*/
+        }
+        .nav-item .nav-link{
+            font-size: 16px;
+            text-transform: capitalize;
+            text-decoration: none;
+            font-weight: 300;
+            color: #bbbbbb;
+            display: block;
+            transition: all 0.3s ease;
+
+        }
+        .navbar-brand {
+            color: #ffffff;
+        }
+        .navba-toggler-icon {
+            background-color: #ffffff;/*color de icono del menú*/
+        }
+    </style>
+ </head>
+ <body>
+    <nav class= "navbar navbar-expand-lg navbar-light"> 
+        <div class="container justify-content-between">
+            <a class="navbar-brand" href="#">Aerolínea Vuela Lejos</a>
+             
+             <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+             </button>
+           
+             <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ms-auto">
+                     <li class="nav-item">
+                       <a class="nav-link" href="#" id=inicio onclick="location.href='index.html'">Inicio</a> 
+                     </li> 
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" id="destinos" onclick="location.href='destinos.html'">Destinos</a>
+                    </li> 
+                    <li class="nav-item-active">
+                      <a class="nav-link" href="#" id="hoteles" onclick="location.href='hoteles.html'">Hoteles</a>
+                    </li> 
+                    <li class="nav-item">
+                      <a class="nav-link" href= "#" id="centro de ayuda" onclick="location.href='centrodeayuda.html'">Centro de
+                      Ayuda</a>
+                    </li> 
+                    <li class="nav-item">
+                       <a class="nav-link" href="#" id="contactox" 
+                          onclick="location.href='contacto.html'">Contacto</a>
+                    </li> 
+                 </ul>
+             </div>
+          </div>
+      </nav> 
+ </body>
+   <body>
+   
+        <div class="title text-center py-5">
+           <H1><strong>Holding Hoteles</strong></H1>
+           <p><h5>Holding hoteles le proporciona el mejor servicio para que descance en sus viajes de negocios o vacaciones.</h5></p>
+        </div>
+            <div class= "row mx-5">
+             <!--Listados de hoteles-->
+               <p><h3>Hoteles en Norte y Latinoamérica</h3></p>
+               <div class="col">
+                  <!--Hotel 1-->
+
+                    <div class="card" style="width: 18rem;">
+                      <img src="img/imghotel1.jpg " class="card-img-top" alt="Hotel Vista Hermosa">
+                      <div class="card-body">
+                             <h5>Hotel Vista Hermosa</h5>
+                            <p class="card-text">
+                                Situado en la Costa del Pacífico <p></p>
+                                En la región del Caribe Colombiano
+                           </p>
+                      </div>
+                   </div>
+               </div>
+
+                 <div class="col">
+                   <!--Hotel 2-->
+
+                   <div class="card" style="width: 18rem;">
+                     <img src="img/imghotel2.jpg " class="card-img-top" alt="Hotel Cascadas">
+                     <div class="card-body">
+                           <h5>Hotel Cascadas</h5>
+                            <p class="card-text">
+                               Muy cerca de la capital Bogotá, Colombia <p></p>
+                               En medio de la naturaleza
+                           </p>
+                     </div>
+                   </div>
+                 </div>
+              
+                 <div class="col">
+                   <!--Hotel 3-->
+
+                   <div class="card" style="width: 18rem;">
+                         <img src="img/imghotel3.jpg " class="card-img-top" alt="Hotel Riviera Maya">
+                       <div class="card-body">
+                           <h5>Hotel Riviera Maya</h5>
+                            <p class="card-text">
+                               En plena costa del Caribe Centroamericano<p></p>
+                               Muy cerca de las históricas ciudades mayas 
+                           </p>
+                       </div>
+                   </div>
+                </div>
+              <!--Sección 2 de Holding Hoteles-->
+              <p><h3>Hoteles en Norte y Latinoamérica</h3></p>
+                <div class="col">
+                  <!--Hotel 4-->
+
+                    <div class="card" style="width: 18rem;">
+                      <img src="img/imghotel4.jpg " class="card-img-top" alt="Hotel Mirage">
+                      <div class="card-body">
+                             <h5>Hotel Mirage</h5>
+                            <p class="card-text">
+                                Situado en la Costa Mexicana <p></p>
+                                Alejado de las grandes urbes para disfrutar en total tranquilidad
+                           </p>
+                      </div>
+                   </div>
+               </div>
+
+                 <div class="col">
+                   <!--Hotel 5-->
+
+                   <div class="card" style="width: 18rem;">
+                     <img src="img/imghotel5.jpg " class="card-img-top" alt="Hotel Dreams">
+                     <div class="card-body">
+                           <h5>Hotel Dreams</h5>
+                            <p class="card-text">
+                               En la maravillosa ciudad de Orlando, Florida, USA <p></p>
+                               Para disfrutar de sus sueños
+                           </p>
+                     </div>
+                   </div>
+                 </div>
+              
+                 <div class="col">
+                   <!--Hotel 6-->
+
+                   <div class="card" style="width: 18rem;">
+                         <img src="img/imghotel6.jpg " class="card-img-top" alt="Hotel Caesars Palace">
+                       <div class="card-body">
+                           <h5>Hotel Caesars Palace</h5>
+                            <p class="card-text">
+                               Ubicado en las Vegas, USA<p></p>
+                               Para disfrutar en la ciudad Capital del Entretenimiento Mundial 
+                           </p>
+                       </div>
+                   </div>
+                </div>
+                <!--Sección 3 de Holding Hoteles-->
+              <p><h3>Hoteles en Norte y Latinoamérica</h3></p>
+              <div class="col">
+                <!--Hotel 7-->
+
+                  <div class="card" style="width: 18rem;">
+                    <img src="img/imghotel7.jpg " class="card-img-top" alt="Hotel Voyage">
+                    <div class="card-body">
+                           <h5>Hotel Voyage</h5>
+                          <p class="card-text">
+                              Se encuentra en Fort Lauderdale, Miami <p></p>
+                              En el sector más exclusivo de Miami, USA
+                         </p>
+                    </div>
+                 </div>
+             </div>
+
+               <div class="col">
+                 <!--Hotel 8-->
+
+                 <div class="card" style="width: 18rem;">
+                   <img src="img/imghotel8.jpg " class="card-img-top" alt="Hotel Esmeraldas">
+                   <div class="card-body">
+                         <h5>Hotel Esmeraldas</h5>
+                          <p class="card-text">
+                             Ubicado en Río de Janeiro, Brasil <p></p>
+                             Lo espera para disfrutar en verano del Carnaval de Río y de sus hermosas playas
+                         </p>
+                   </div>
+                 </div>
+               </div>
+            
+               <div class="col">
+                 <!--Hotel 9-->
+
+                 <div class="card" style="width: 18rem;">
+                       <img src="img/imghotel9.jpg " class="card-img-top" alt="Hotel Cancún">
+                     <div class="card-body">
+                         <h5>Hotel Cancún</h5>
+                          <p class="card-text">
+                             En plena península del Yucatán, México<p></p>
+                             Aquí se podrá bañar en las cálidas aguas del Mar Caribe 
+                         </p>
+                     </div>
+                 </div>
+              </div>
+                
+           </div>
+   </body>
+</html>
